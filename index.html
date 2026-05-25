@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>正则工坊隐私政策</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --text: #182230;
+      --muted: #526071;
+      --line: #d8e0ea;
+      --accent: #0078d4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: linear-gradient(180deg, #eef4fb 0%, var(--bg) 100%);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    main {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 48px 20px 72px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 32px;
+      box-shadow: 0 18px 50px rgba(16, 24, 40, 0.08);
+    }
+    h1, h2 { margin: 0 0 16px; }
+    h1 { font-size: 32px; }
+    h2 {
+      margin-top: 28px;
+      font-size: 20px;
+      border-left: 4px solid var(--accent);
+      padding-left: 12px;
+    }
+    p, li { color: var(--muted); }
+    ul { padding-left: 20px; }
+    code {
+      background: #eef3f8;
+      padding: 2px 6px;
+      border-radius: 4px;
+      color: #0f3c68;
+    }
+    .meta {
+      margin-bottom: 20px;
+      color: var(--muted);
+    }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="card">
+      <h1>正则工坊隐私政策</h1>
+      <p class="meta">生效日期：2026 年 5 月 25 日</p>
+      <p>正则工坊是一款基于 Tauri 的桌面正则表达式测试与学习工具。本政策说明应用会在何种范围内处理数据、数据保存在哪里，以及用户如何控制这些数据。</p>
+
+      <h2>1. 我们处理哪些数据</h2>
+      <ul>
+        <li>正则表达式历史记录、收藏内容、自定义模板和应用设置。</li>
+        <li>隐私政策同意状态，以及是否记住该选择。</li>
+        <li>测试文本仅用于当前运行时的匹配与高亮，不会在关闭应用后长期保存。</li>
+      </ul>
+
+      <h2>2. 数据如何保存</h2>
+      <ul>
+        <li>历史记录、收藏、自定义模板和界面设置保存在本地 WebView 存储中，例如 <code>localStorage</code>。</li>
+        <li>隐私同意状态会额外保存到系统应用数据目录中的本地文件，以便应用重启后仍能识别您的选择。</li>
+        <li>上述数据默认不会上传到开发者服务器，也不会同步到云端。</li>
+      </ul>
+
+      <h2>3. 网络与第三方链接</h2>
+      <p>应用核心功能可离线运行。应用不会在后台调用第三方统计、广告或分析服务。</p>
+      <p>当且仅当您主动点击“学习资源”等外部链接时，应用会调用系统默认浏览器打开第三方网站。访问这些网站后，将受对应网站的隐私政策约束。</p>
+
+      <h2>4. 您的控制权利</h2>
+      <ul>
+        <li>您可以在应用内查看、删除历史记录和收藏内容。</li>
+        <li>您可以通过应用内清空功能或卸载应用删除应用保存的信息；如需彻底删除，建议先在应用内执行清空。</li>
+        <li>您可以不勾选“记住我的选择”，此时隐私同意仅在当前运行期间生效。</li>
+      </ul>
+
+      <h2>5. 联系方式</h2>
+      <p>如对本政策有疑问，请联系：<a href="mailto:wzr0209520@outlook.com">support@zhengzegongfang.com</a></p>
+
+    </section>
+  </main>
+</body>
+</html>
